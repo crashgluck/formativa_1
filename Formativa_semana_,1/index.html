@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<!--
+catálogo de videojuegos,  cree un sitio web que permita mostrar la información de cada uno de los juegos que tenemos disponibles. 
+a)	Las características de la página web que deberán crear son las siguientes:
+•	Tener una página principal que contenga el nombre de la PYME (el nombre debe ser creado por su equipo de trabajo), el listado de las categorías junto a sus nombres.
+•	Cada categoría deberá tener un hipervínculo asociado y una imagen de referencia de esta.
+•	Dentro de la sección de cada categoría se deberá desarrollar una ficha con los siguientes datos de los juegos listados dentro: imagen del juego, nombre del juego, una breve descripción y el precio o valor de venta.
+•	Cada pantalla interna deberá tener una serie de hipervínculos que permita pasar de una página a otra o volver al inicio.
+•	Deberán desarrollar 5 categorías con 2 juegos en cada una de ellas como máximo.
+
+-->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GamingZone Inicio</title>
+    <link rel="stylesheet" href="./static/css/style.css" />
+</head>
+<body>
+    <nav>
+        <ul>
+            <li>
+                <div >
+                    <img class="brand-img" src="https://img.freepik.com/vector-gratis/insignia-vintage-mano-sosteniendo-ilustracion-vector-joystick-etiqueta-redonda-gamepad_74855-11224.jpg?t=st=1741804992~exp=1741808592~hmac=9f45e4c79ae451e347ca9b8fa5a0d1e98edd45e54f5f8d8298f2347b2c820154&w=740"  alt="">
+                </div>
+            </li>
+            <li><a href="">Inicio</a></li>
+            <li><a href="">Categorias</a></li>
+            
+        </ul>
+    </nav>
+    <header>
+        
+        <div >
+            <img class="header-img" src="https://img.freepik.com/vector-gratis/insignia-vintage-mano-sosteniendo-ilustracion-vector-joystick-etiqueta-redonda-gamepad_74855-11224.jpg?t=st=1741804992~exp=1741808592~hmac=9f45e4c79ae451e347ca9b8fa5a0d1e98edd45e54f5f8d8298f2347b2c820154&w=740" alt="">
+        </div>
+    </header>
+    <section>
+        <div>
+            <h2>Categorías</h2>
+        </div>
+        <div class="container-I">
+            <ul>
+                <li>
+                    <a href="./templates/categorias/horror.html" class="link-game" href="#" data-title="Zombis">
+                        <div>
+                            <img class="game-img" src="https://img.freepik.com/foto-gratis/zombis-caminando-bosque_23-2150838718.jpg?w=1380" alt="">
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="./templates/categorias/carreras.html" class="link-game" href="#" data-title="Carreras">
+                        <div>
+                            <img class="game-img" src="https://img.freepik.com/fotos-premium/gente-carrera-coches-contra-cielo_1048944-29792586.jpg?w=1380" alt="">
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a class="link-game" href="./templates/categorias/guerra.html" data-title="Guerra">
+                        <div>
+                            <img class="game-img" src="https://img.freepik.com/foto-gratis/soldados-vista-frontal-zona-guerra_23-2150804309.jpg?w=1380" alt="">
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a class="link-game" href="./templates/categorias/estrategia.html" data-title="Estrategia">
+                        <div>
+                            <img class="game-img" src="https://img.freepik.com/fotos-premium/grupo-personas-palabra-guerra-cabeza_901275-539.jpg?w=1380" alt="">
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    
+                    <a class="link-game" href="./templates/categorias/deportes.html" data-title="Deportes">
+                        <div>
+                            <img class="game-img" src="https://img.freepik.com/fotos-premium/jugadora-controlador-tecnica-mixta_641298-6554.jpg?w=1380" alt="">
+                        </div>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <footer>
+        <p>Footer</p>
+    </footer>
+    
+</body>
+</html>
